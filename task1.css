@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    /* color: rgba(245, 140, 102, 0.441); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+}
+.none{
+    display: flex;
+    gap: 5%;
+    /* color: orangered; */
+   
+}
+.none li{
+    list-style: none;
+    padding: 0 3%;
+    color:white;
+}
+h6{
+    color:rgba(255, 255, 255, 0.759);
+    margin-right: 25%;
+    font-size: 25px;
+    color: orangered;
+    font-weight: bolder;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.none li:hover{
+    background-color: black;
+    color: wheat;
+}
+
+@media only screen and (min-width:200px) and (max-width:700px){
+    .none{
+        display: none;
+    }
+}
+.main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: blueviolet; */
+    /* margin-top: 10%;  */
+}
+#left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(217, 37, 37); */
+}
+#whole{
+    margin-top: 10%;
+     /* background-color: red;  */
+     margin-top: 10%;
+}
+h1{
+    margin-left: 10%;
+    color:#776B5D ;
+    word-wrap: break-word;
+    
+    /* text-shadow: 0 0 5px black; */
+}
+.change{
+    color: #427D9D;
+    text-shadow: none;
+}
+input{
+    margin-left: 10%;
+    padding: 1% 3%;
+}
+.two{
+    background-color: black;
+    color: bisque;
+}
+
+p{
+    margin-left: 10%;
+}
+#right{ 
+    width: 50%;
+    height: 100%;
+ /* background-color: #FFEBD8;   */
+    /* background-image: url(woman-typing-windows.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#right img{
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 0 0 25px orangered;
+
+}
+@media only screen and (min-width:200px) and (max-width:700px){
+    .main{
+       width: 100%;
+       flex-direction: column;
+    }
+    #whole{
+        width:100% ;
+        height: 90%;
+    }
+    #left{
+        width:100% ;
+    }
+    #right{
+        width: 100%;
+    }
+
+   
+   }
+
+   #nextpage{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color:black; 
+}
+h2{
+    margin-top: 10%;
+}
+.neha{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+   .left1{
+    width: 30%;
+    height: 80%;
+background-color: rgba(128, 128, 128, 0.291);
+backdrop-filter: blur(60px);
+margin-top: 10%;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 0 25px orangered;
+   }
+   .green{
+    background-color: rgba(0, 128, 0, 0.541);
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: none;
+    padding: 10px 15px;
+   }
+   .same{
+    text-align: center;
+    padding: 3% 15%;
+    margin-left: 5%;
+    background-color:gray;
+   }
+   .right1{
+    width: 30%;
+    height: 80%;
+    background-color:rgba(128, 128, 128, 0.329);
+    backdrop-filter: blur(90px);
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 25px orangered;
+    
+   }
+
+   .red{
+    background-color: red;
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 10px 15px;
+    border: none;
+   }
+   .all{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+   }
+   .sky{
+    background-color: rgba(135, 207, 235, 0.466);
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+   }
+   .same1{
+    background-color: gray;
+    margin-top: 10%;
+    padding: 5% 10%;
+    font-size: 25px;
+    border-radius: 15px;
+   }
+
+   .same2{
+    background-color: gray;
+    margin-top: 10%;
+    padding: 5% 10%;
+    font-size:25px ;
+    border-radius: 15px;
+   }
+    @media  only screen and (min-width:200px) and (max-width:700px){
+    #nextpage{
+        width: 100%;
+        flex-direction: column;
+    }
+    .neha{
+        width: 100%;
+        flex-direction: column;
+    }
+    .right1{
+        width: 100%;
+
+    }
+    .left1{
+        width: 100%;
+    }
+}
+.third{
+    width: 100%;
+    height: 100%;
+     /* background-color:#FFC5C5;  */
+    
+}
+h3{
+    text-align: center;
+}
+.shyam{
+    width: 100%;
+    height: 100%;
+     /* background-color: aqua;   */
+
+}
+
+.child1{
+width: 100%;
+height: 40%;
+background-color:#ffc5c578;
+display: flex;
+border-radius: 10px;
+}
+
+.cart{
+    width: 50%;
+    height: 100%;
+    
+}
+.img{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1592890288564-76628a30a657?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob25lfGVufDB8fDB8fHww);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two3{
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.child2{
+    width: 50%;
+    height: 100%;
+    background-color: #427d9d6f;
+    border-radius: 10px;
+}
+p{
+    margin-top: 9%;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+}
+.child3{
+    width: 50%;
+    height: 100%;
+    background-color:#9bbec861;
+    border-radius: 10px;
+}
+.visit{
+    margin-left: 30%;
+    background-color: transparent;
+    color: wheat;
+    padding: 10px 15px;
+}
+@media  only screen and (min-width:200px) and (max-width:700px){
+    .shyam{
+        width: 100%;
+        flex-direction: column;
+    }
+    .child1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cart{
+        width: 100%;
+    }
+    .img{
+        /* width: 100%;
+        height: 100%; */
+        display: none;
+    }
+    .two3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .child2,.child3{
+        width: 100%;
+    }
+}
+
+#four{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+   
+}
+h3{
+    margin-top: 10%;
+    color: rgba(255, 255, 255, 0.62);
+    text-transform: uppercase;
+    
+}
+.cmall{
+    width: 100%;
+    height: 90%;
+     /* background-color: blue;  */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.comment1{
+    width: 100%;
+    height: 100%;
+
+
+}
+.cm1{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+   
+  
+}
+.cm2{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    border-radius: 15px;
+    
+}
+.cm3{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.comment2{
+    width: 100%;
+    height: 100%;
+}
+.cm4{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.cm5{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.cm6{
+    width: 90%;
+    height: 25%;
+    background-image: url(comment-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+@media  only screen and (min-width:200px) and (max-width:700px){
+    .cmall{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cm1, .cm2, .cm3, .cm4, .cm5, .cm6{
+        width: 100%;
+    }
+    .cm4, .cm5, .cm6{
+        width: 100%;;
+    }
+    
+}
+
+#five{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.both1{
+    width: 100%;
+    height: 50%;
+    /* background-color: #776B5D; */
+    display: flex;
+    justify-content: space-between;
+    align-content:center ;
+}
+.ques{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+}
+h5{
+    margin-left: 20%;
+    font-size: 30px;
+    margin-top: 10%;
+    color: white;
+}
+.help{
+    margin-left:20% ;
+    margin-top: 10%;
+    border-radius: 15px;
+    text-transform: capitalize;
+    background-color: rgba(128, 128, 128, 0.274);
+    color: wheat;
+
+}
+.add{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+   
+}
+.add1{
+    margin-top: 10%;
+   border-radius: 10px;
+    box-shadow: 0 0 15px orangered;
+   
+}
+.add2{
+    margin-top: 1%;
+    box-shadow: 0 0 15px orangered;
+    border-radius: 10px;
+
+}
+.add3{
+    margin-top: 1%;
+    box-shadow: 0 0 15px orangered;
+    border-radius: 10px;
+
+}
+.add4{
+    margin-top: 1%;
+    box-shadow: 0 0 15px orangered; 
+    border-right: none;
+    border-radius: 10px;
+
+}
+input{
+    background-color: white;
+    border: none;  
+    color: orangered; box-shadow: 0 0 15px orangered; 
+    border-radius: 10px;
+   
+}
+@media only screen and (min-width:200px) and (max-width:700px){
+    .both1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .ques{
+        width: 100%;
+    }
+    .add{
+        width: 100%;
+    }
+}
+.download{
+    width: 100%;
+    height: 25%;
+    background-color: orangered;
+    text-align: center;
+}
+.plays{
+    padding: 1% -1%;
+    background-color: orangered;
+    border: none;
+    color: white;
+
+}
+.footer{
+    width: 100%;
+    height: 25%;
+    background-color: black;}
+    
+.lovelylogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+
+
+}
+.lovelys{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lovelyes{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    /* background-color: yellow; */
+}
+li{
+    color:white;
+    list-style: none;
+    margin-left: 3%;
+}
+.all logo{
+    margin-left: 50%;
+
+}
+
+
+
+
